@@ -9,7 +9,7 @@ This extension defines dynamic methods on `Eda\Flow` instance. They are called t
 To use this extension, require it in [Composer](https://getcomposer.org/):
 
 ```
-composer require --dev phpstan/phpstan-eda
+composer require --dev evosoftcz/phpstan-eda
 ```
 
 If you also install [phpstan/extension-installer](https://github.com/phpstan/extension-installer) then you're all set!
@@ -21,6 +21,6 @@ If you don't want to use `phpstan/extension-installer`, include extension.neon i
 
 ```
 includes:
-    - vendor/phpstan/phpstan-eda/extension.neon
+    - vendor/evosoftcz/phpstan-eda/extension.neon
 ```
 </details>
