@@ -1,5 +1,5 @@
 {
-	"name": "phpstan/phpstan-eda",
+	"name": "evosoftcz/phpstan-eda",
 	"type": "phpstan-extension",
 	"description": "Eda class reflection extension for PHPStan",
 	"license": [
