@@ -1,0 +1,9 @@
+parameters:
+	universalObjectCratesClasses:
+		- Eda\Row
+
+services:
+	-
+		class: PHPStan\Reflection\Eda\EdaFlowClassReflectionExtension
+		tags:
+			- phpstan.broker.methodsClassReflectionExtension
