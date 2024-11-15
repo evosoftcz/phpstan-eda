@@ -55,9 +55,6 @@ class EdaFlowMethodReflection implements MethodReflection
 		return true;
 	}
 
-	/**
-	 * @return \PHPStan\Reflection\ParametersAcceptor[]
-	 */
 	public function getVariants(): array
 	{
 		return [
